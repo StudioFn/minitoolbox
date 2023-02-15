@@ -1,0 +1,1 @@
+const e=JSON.parse('{"key":"v-4b7a0fcf","path":"/docs/development/","title":"Development","lang":"zh-CN","frontmatter":{"title":"Development","article":false,"feed":false,"sitemap":false},"headers":[],"git":{},"readingTime":{"minutes":0,"words":1},"filePathRelative":null,"copyright":{"author":"梦辰","license":"MIT"}}');export{e as data};
