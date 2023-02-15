@@ -18,7 +18,7 @@ jobs:
           fetch-depth: 0
 
       - name: Setup pnpm
-        uses: pnpm/action-setup@v2
+        uses: npm/action-setup@v2
         with:
           # 选择要使用的 pnpm 版本
           version: 7
@@ -31,11 +31,11 @@ jobs:
           # 选择要使用的 node 版本
           node-version: 18
           # 缓存 pnpm 依赖
-          cache: pnpm
+          cache: npm
 
       # 运行构建脚本
       - name: Build VuePress site
-        run: pnpm docs:build
+        run: npm docs:build
 
       # 查看 workflow 的文档来获取更多信息
       # @see https://github.com/crazy-max/ghaction-github-pages
