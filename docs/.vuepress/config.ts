@@ -3,7 +3,7 @@ import { hopeTheme } from "vuepress-theme-hope";
 import { searchPlugin } from '@vuepress/plugin-search'
 
 export default defineUserConfig({
-    base: '/minitoolbox/',
+    base: '/',
     lang: 'zh-CN',
     title: '迷你开发者工具箱',
     description: '为迷你世界开发者而生的一款工具箱APP',
